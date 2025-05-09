@@ -1,2 +1,2 @@
 # crud
-CRUD: 
+CRUD: Create,Reate,update,Delete
