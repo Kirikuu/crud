@@ -10,7 +10,7 @@
     
 <div class="contenedor"> 
 
-    <h2 style="color: rgb(255, 255, 255);">Registro de Usuari@</h2>
+    <h2 style="color: rgb(255, 255, 255);">Registro de Usuario</h2>
 
         <form method="POST">
             
@@ -21,7 +21,7 @@
         </form>
 
     <table>
-        <tr><th>ID</th><th>NOMBRE USUARIO</th><th>CORREO USUARIO</th><th>ACCIONES</th></tr>
+        <tr><th>ID</th><th>Nombre de Usuario</th><th>Correo Usuario</th><th>Acciones</th></tr>
         {% for persona in usuario %}
         
         <tr>
@@ -30,7 +30,7 @@
             <td> {{ persona.correo}} </td>
 
             <td> 
-                <a href="">editar</a>
+                <a href="/update/{{ persona.id }}">editar</a>
                 <a href="/?eliminar={{ persona.id }} ">eliminar</a></td>
             
         {% endfor %}
