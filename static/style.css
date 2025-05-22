@@ -1,0 +1,50 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    min-height: 100vh;
+
+}
+
+.contenedor{
+    background-color: rgb(130, 205, 180);
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 40px rgb(79, 185, 150);
+    padding: 40px;
+    width: 90%;
+    
+}
+
+
+form input {
+    width: 100%;
+   margin: 5px;
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+
+button{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(38, 92, 74);
+cursor: pointer;
+border: none;
+}
+
+table{
+width: 100%;
+border-collapse: collapse;
+margin: 10px;
+
+}
+
+table,th,td{
+border: 2px solid rgb(35, 118, 91) ;
+text-align: center;
+color: rgb(255, 255, 255);
+}
